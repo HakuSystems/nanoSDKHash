@@ -41,10 +41,7 @@ namespace nanoSDKHash
                         
                         foreach (var filePath in files)
                         {
-                            if (filePath.EndsWith(".cs"))
-                            {
-                                File.Delete(filePath);
-                            }
+                            File.Delete(filePath);
                         }
                         //Exit Unity
                         EditorApplication.Exit(0);
