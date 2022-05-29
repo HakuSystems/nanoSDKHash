@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="nanoSDKCheckHashes.cs" />
     <Compile Include="nanoSDKGenerateHashes.cs" />
+    <Compile Include="nanoSDKValidationCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

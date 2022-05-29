@@ -15,7 +15,6 @@ namespace nanoSDKHash
         public static void CheckHashes()
         {
             string path = $"Assets{Path.DirectorySeparatorChar}VRCSDK{Path.DirectorySeparatorChar}nanoSDK";
-            Uri serverUrl = new Uri("https://www.nanosdk.net/download/Hash/hashes.txt");
 
             var files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories)
                                  .OrderBy(p => p).ToList();
@@ -49,7 +48,6 @@ namespace nanoSDKHash
                 }
 
             }
-
         }
     }
 }
